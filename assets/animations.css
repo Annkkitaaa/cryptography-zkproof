@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+.home-banner img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+button:hover {
+    background-color: #0066cc;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

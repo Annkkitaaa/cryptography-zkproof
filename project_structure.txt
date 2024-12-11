@@ -1,0 +1,15 @@
+cryptography-zkproof
+│
+├── app.py                  # Main Streamlit application
+├── README.md               # Project documentation
+├── requirements.txt        # Dependencies
+├── src/                    # Source code for modularized logic
+│   ├── __init__.py
+│   ├── zk_proof_system.py  # Core zero-knowledge proof logic
+│   └── utils.py            # Utility functions (e.g., random number generation)
+├── assets/                 # Static assets (images, logos)
+│   └── banner.png
+└── tests/                  # Test suite
+    ├── __init__.py
+    ├── test_zk_proof_system.py
+    └── test_utils.py
